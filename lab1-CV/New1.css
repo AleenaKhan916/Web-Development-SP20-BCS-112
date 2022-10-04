@@ -1,0 +1,119 @@
+.left
+{
+    background-color: rgb(83, 32, 83);
+    width: 48ch;
+    height:113ch;
+    float: left;
+}
+.image
+{
+    width: 200px;
+    height: 170px;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+h2{
+    color: aliceblue;
+}
+.image1
+{
+    width:15px;
+    height:15px;
+    align-items: center;
+    margin-left: 10px;
+}
+.p1
+{
+    color: white;
+}
+.p2
+{
+text-indent: 50px;
+padding: 10px;
+color:cornsilk;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.object
+{
+    width:25px;
+    height:25px;
+    display:flex;
+    float:left
+    
+
+}
+
+h3{
+    font-size: 18px;
+    color: rgb(196, 196, 192);
+}
+.p3
+{
+    color: rgb(202, 199, 193);
+    
+    
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+.h4
+{
+    color: black;
+    text-align: center;
+}
+.Experience
+{
+    margin-left:20px;
+    width: 110ch;
+    height:35ch;
+    background-color: rgb(104, 54, 104);
+    float: left;
+    display: block;
+
+}
+.Skill
+{
+    float: left;
+    display: block;
+    width: 60ch;
+    height:35ch;
+    margin-top: 20px;
+    margin-left:20px;
+    background-color: rgb(243, 237, 243);
+}
+.Skills
+{
+    float: right;
+    display: block;
+    width: 50ch;
+    height:35ch;
+    margin-top: 20px;
+    margin-left:20px;
+    background-color: rgb(243, 237, 243);
+}
+.Activities
+{
+    float: left;
+    display: block;
+    width: 70ch;
+    height:20ch;
+    margin-top: 20px;
+    margin-left:20px;
+    background-color: rgb(243, 237, 243);
+}
+
+
+.p8
+{
+      font-size:20px;
+      color:black;
+}
+
+#file
+{
+    width:70%;
+    height: 30px;
+    
+}

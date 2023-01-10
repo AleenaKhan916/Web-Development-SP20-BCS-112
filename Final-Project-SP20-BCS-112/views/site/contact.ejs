@@ -1,0 +1,98 @@
+<h1>Contact Us</h1>
+
+
+<br>
+<header class="page-header">
+    <h3><b>Drop us a Line.</b></h3>
+    <span class="line"> 
+    </span>
+</header>
+
+<div class="card-deck" style="padding: 10px">
+    <div class="card" style="width: 40%">
+      
+      <div class="card-body">
+        
+        <input type="hidden" name="form-type" value="contact">
+        <input type="hidden" name="utf8" value="" >
+        <div class="form-group" style="margin-top: 2%;">
+            <label for="contactForName">
+                <span>Your Name</span>
+            </label>
+            <br>
+                <input type="text" name="contact[name]" id="contactForName" autocapitalize="words" placeholder=" " >
+        </div>
+        <div class="form-group"style="margin-top: 2%;" >
+            <label for="contactForName">
+                <span>Your Phone</span>
+            </label>
+            <br>
+                <input type="tel" name="contact[phone]" id="contactForPhone" pattern="[0-9]*" placeholder=" " >
+        </div>
+        <div class="form-group" style="margin-top: 2%;">
+            <label for="contactForEmail">
+                <span>Your Email</span>
+            </label>
+            <br>
+                <input type="tel" name="contact[email]" id="contactForEmail" autocomplete="off" autocapitalize="off" placeholder=" " >
+        </div>
+
+        <div class="form-group"style="margin-top: 2%;">
+            <label for="contactFormMessages">
+                <span>Your Comment</span>
+                <em>*</em>
+            </label>
+            <br>
+            <textarea rows="8" placeholder="Please leave your comment here"></textarea>
+        </div>
+        <input type="submit" class="btn btn-primary" value="Submit Contact" style="margin-top: 2%;" style="color: pink;" >
+    </form>
+        
+      </div>
+    </div>
+    <div class="card" style="width:20%;">
+      
+      <div class="card-body">
+        <h4 >
+            <span style="font-family:sans-serif"><b>Store Information</b></span>
+        </h4>
+        <p >
+            <span style="font-family:sans-serif">We'd love to hear from you to send us your message</span>
+        </p>
+        <p >
+            <span style="font-family:sans-serif">2nd Floor, Street 57, DHA-Phase 4, Lahore</span>
+        </p>
+        <p >
+            <span style="font-family:sans-serif">Email:
+                <a href="mailto:streetsaver.com.pk">streetsaver@yahoo.com.pk</a>
+                <br>
+                Mobile#:
+                <strong>+92-330-76874539</strong>
+            </span>
+            <div class="open-hours">
+                <span >
+                    <span style="font-family:sans-serif"><b>Opening Hours:</b></span>
+                </span>
+                <p >
+                    <span style="font-family:sans-serif">Monday - Friday: 11am - 8pm</span>
+                </p>
+                <p >
+                    <span style="font-family:sans-serif">Saturday: Closed</span>
+                </p>
+                <p >
+                    <span style="font-family:sans-serif">Sunday: Closed</span>
+                </p>
+            </div>
+        </p>
+        
+        
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+<%-contentFor("footer") %>
+<p>My Address is CUI</p>
